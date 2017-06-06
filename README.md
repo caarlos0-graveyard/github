@@ -1,5 +1,6 @@
 # github
-terraform recipes for my github repositories config
+
+terraform recipes to config my github repositories
 
 ## Running
 
