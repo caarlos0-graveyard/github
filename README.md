@@ -5,6 +5,8 @@ terraform recipes to config my github repositories
 ## Running
 
 ```console
-$ terraform
-$ terraform apply -var "github_token=my-token" -var-file $org.tfvars -state $org.tfstate
+$ terraform workspace list
+$ terraform workspace select $org
+$ terraform plan -var-file $org.tfvars
+$ terraform apply -var-file $org.tfvars
 ```
